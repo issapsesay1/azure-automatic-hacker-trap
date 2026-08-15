@@ -1,5 +1,4 @@
-yaml
-name: Deploy Azure Automated Hacker Trap
+name: Deploy Azure Automated Hacker Trap 🚀
 
 on:
   push:
