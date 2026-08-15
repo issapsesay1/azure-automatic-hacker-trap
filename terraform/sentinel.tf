@@ -1,4 +1,3 @@
-hcl
 resource "azurerm_log_analytics_workspace" "trap_law" {
   name                = "hacker-trap-workspace"
   location            = azurerm_resource_group.trap_rg.location
