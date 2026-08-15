@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "trap_rg" {
-  name     = "Hacker-Trap-Zone-Binissa-v1"  # <-- This brand new name clears the old folder block!
+  name     = "Hacker-Trap-Zone-Binissa-Final" # <-- The brand new name for our clean run!
   location = "East US"
 }
