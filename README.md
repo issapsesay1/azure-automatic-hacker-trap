@@ -26,3 +26,4 @@ Run Verified: Update main.tf (Status: Success) - Hacker-Trap-Zone-Binissa-Final 
 ###  2. Programmatic Perimeter Injection (Cloud Resource Verification)
 This verification snapshot confirms that the infrastructure-as-code automation successfully provisioned the Microsoft Sentinel analytics workspace, core network spaces, and target firewall network security groups directly inside the live Azure subscription tenant.
 ![Active Cloud Security Trap Assets](./shield-link.png)
+
