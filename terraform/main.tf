@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "trap_rg" {
-  name     = "Hacker-Trap-Resources"
+  name     = "Hacker-Trap-Perimeter"  # <-- This new name bypasses the conflict error!
   location = "East US"
 }
