@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "trap_rg" {
-  name     = "Hacker-Trap-Zone-BinissaAllissa-v0"  # <-- This custom name clears the conflict loop!
+  name     = "Hacker-Trap-Zone-Binissa-v1"  # <-- This brand new name clears the old folder block!
   location = "East US"
 }
