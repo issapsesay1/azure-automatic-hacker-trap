@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "trap_rg" {
-  name     = "Hacker-Trap-Zone-Issa-V2"  # <-- This brand new name clears the duplicate error!
+  name     = "Hacker-Trap-Zone-Issa-V289"  # <-- Your custom V289 code clears the duplicate block!
   location = "East US"
 }
