@@ -20,11 +20,9 @@ The project demonstrates how to ingest live security telemetry, analyze network 
 
 ###  1. Automated Pipeline Deployment Success
 This evidence verifies that the GitHub Actions automation runner securely logs into the Microsoft Cloud tenant via authorized service principal connections and provisions the monitoring framework cleanly via Terraform.
-Run Verified: Update main.tf (Status: Success) - Hacker-Trap-Zone-Binissa-v1 Deployed
+Run Verified: Update main.tf (Status: Success) - Hacker-Trap-Zone-Binissa-Final Deployed
 ![Hacker Trap Pipeline Success](./pipeline-success.png)
 
 ###  2. Programmatic Perimeter Injection (Cloud Resource Verification)
 This verification snapshot confirms that the infrastructure-as-code automation successfully provisioned the Microsoft Sentinel analytics workspace, core network spaces, and target firewall network security groups directly inside the live Azure subscription tenant.
 ![Active Cloud Security Trap Assets](./shield-link.png)
-
-
