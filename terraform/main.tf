@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "trap_rg" {
-  name     = "Hacker-Trap-Defense-Zone"  # <-- This brand new name clears the conflict!
+  name     = "Hacker-Trap-Defense-Zone-Issa"  # <-- Your custom unique name fixes the error!
   location = "East US"
 }
