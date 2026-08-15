@@ -1,0 +1,27 @@
+yaml
+name: Deploy Azure Automated Hacker Trap
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  terraform-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Open Code Box
+      uses: actions/checkout@v4
+
+    - name: Setup Terraform Robot
+      uses: hashicorp/setup-terraform@v3
+
+    - name: Log Into Azure Castle
+      env:
+        ARM_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
+        ARM_CLIENT_SECRET: ${{ secrets.AZURE_CLIENT_SECRET }}
+        ARM_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
+        ARM_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      run: |
+        cd terraform
+        terraform init
+        terraform apply -auto-approve
