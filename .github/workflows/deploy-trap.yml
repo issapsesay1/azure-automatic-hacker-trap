@@ -1,8 +1,10 @@
-name: Deploy Azure Automated Hacker Trap 🚀
+name: Deploy Azure Automated Hacker Trap 
 
 on:
   push:
     branches: [ main ]
+    paths:
+      - 'terraform/**' # <-- The robot will ONLY wake up if files inside the terraform folder change!
 
 jobs:
   terraform-deploy:
