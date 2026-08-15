@@ -1,4 +1,3 @@
-hcl
 resource "azurerm_logic_app_workflow" "hacker_blocker" {
   name                = "sentinel-block-hacker-ip"
   location            = azurerm_resource_group.trap_rg.location
