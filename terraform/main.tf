@@ -12,6 +12,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "trap_rg" {
-  name     = "Hacker-Trap-Zone-SesayI-VV289"  # <-- Your fresh name completely breaks the loop!
+  name     = "Hacker-Trap-Zone-BinissaAllissa-v0"  # <-- This custom name clears the conflict loop!
   location = "East US"
 }
