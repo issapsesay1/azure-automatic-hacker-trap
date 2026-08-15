@@ -20,7 +20,7 @@ The project demonstrates how to ingest live security telemetry, analyze network 
 
 ###  1. Automated Pipeline Deployment Success
 This evidence verifies that the GitHub Actions automation runner securely logs into the Microsoft Cloud tenant via authorized service principal connections and provisions the monitoring framework cleanly via Terraform.
-Run Verified: Update main.tf (Status: Success) - Hacker-Trap-Zone-Issa-V289 Deployed
+Run Verified: Update main.tf (Status: Success) - Hacker-Trap-Zone-SesayI-VV289 Deployed
 ![Hacker Trap Pipeline Success](./pipeline-success.png)
 
 ###  2. Programmatic Perimeter Injection (Cloud Resource Verification)
